@@ -1,0 +1,91 @@
+body {
+  margin: auto;
+  font-family: helvetica,sans-serif;
+}
+
+.icon {
+   width: 50px;
+   height: 50px;
+   position: relative;
+   margin: auto;
+   display: grid;
+   padding-left: 55px;
+   padding-right: 55px;
+   padding-top: 10px;
+}
+.hh {
+  height: 200px;
+  width: 160px;
+  border-radius: 50px;
+  position: relative;
+  margin: auto;
+  display: grid;
+}
+.middle-container {
+  background-color: #FFE194;
+  position: relative;
+  margin: auto;
+  display: grid;
+  height: 150px;
+}
+.profile {
+  position: relative;
+  margin: auto;
+  display: grid;
+}
+.Skills {
+  height: 400px;
+  background-color: #E8F6EF;
+  position: relative;
+  margin: auto;
+  display: grid;
+}
+.contact-me {
+  height: 100px;
+  background-color: #B8DFD8;
+  position: relative;
+  margin: auto;
+  display: grid;
+}
+
+.bottom-container {
+  height: 100px;
+  background-color: #4C4C6D;
+  position: relative;
+  margin: auto;
+  display: grid;
+}
+
+.fa {
+  padding-top: 8px;
+  font-size: 30px;
+  width: 30px;
+  height: 22.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+.fa:hover {
+      opacity: 0.7;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+  }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github {
+  background: white;
+}
+.social {
+  text-align: center;
+}
