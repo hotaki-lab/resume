@@ -1,91 +1,58 @@
 body {
-  margin: auto;
-  font-family: helvetica,sans-serif;
+  font-family: Montserrat;
+  background-color: #fefaf6;
 }
 
-.icon {
-   width: 50px;
-   height: 50px;
-   position: relative;
-   margin: auto;
-   display: grid;
-   padding-left: 55px;
-   padding-right: 55px;
-   padding-top: 10px;
+.social{
+  background-color: #f8f9fa;
+  text-align: center;
 }
+
 .hh {
-  height: 200px;
-  width: 160px;
+  height: 300px;
+  width: 230px;
   border-radius: 50px;
   position: relative;
-  margin: auto;
-  display: grid;
+  margin-left: 80%;
+  transform: rotate(0deg);
 }
-.middle-container {
-  background-color: #FFE194;
-  position: relative;
-  margin: auto;
-  display: grid;
-  height: 150px;
-}
-.profile {
-  position: relative;
-  margin: auto;
-  display: grid;
-}
-.Skills {
-  height: 400px;
-  background-color: #E8F6EF;
-  position: relative;
-  margin: auto;
-  display: grid;
-}
-.contact-me {
-  height: 100px;
-  background-color: #B8DFD8;
-  position: relative;
-  margin: auto;
-  display: grid;
-}
-
-.bottom-container {
-  height: 100px;
-  background-color: #4C4C6D;
-  position: relative;
-  margin: auto;
-  display: grid;
-}
-
-.fa {
-  padding-top: 8px;
-  font-size: 30px;
-  width: 30px;
-  height: 22.5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 50%;
-}
-.fa:hover {
-      opacity: 0.7;
+a:-webkit-any-link {
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 5px 20px;
+  }
+  .nav-item {
+    padding: 0 20px;
+    text-align: center;
   }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-
+.features {
+  padding: 7% 15%;
+  background-color: #fefaf6;
+}
+  .container-fluid {
+    text-align: center;
+    padding: 0 5%;
   }
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+
+.navbar{
+  background-color: #fefaf6;
+  width: 100%;
 }
-.fa-instagram {
-  background: #125688;
-  color: white;
+
+.container{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.fa-github {
-  background: white;
-}
-.social {
+.cards {
   text-align: center;
+  padding: 7% 15%;
 }
+
+#footer {
+    text-align: center;
+  }
