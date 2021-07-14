@@ -1,0 +1,65 @@
+body {
+  font-family: Montserrat;
+}
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bg-primary {
+  background-color: #6EB6FF !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.btn {
+  margin-bottom: 5%;
+}
+.hh {
+  height: 200px;
+  width: 160px;
+  border-radius: 100%;
+  transform: rotate(0deg);
+  /* float: right; */
+  margin: 50px 10px;
+  text-align: center;
+}
+
+hr {
+  color: #fff;
+}
+h1, h4 {
+  padding: 2% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  padding-top: 0.5%;
+  padding-bottom: 4%;
+}
+.container {
+  padding-top: 5%;
+}
+
+header {
+  background-color: #6EB6FF;
+}
+
+section {
+  height: 500px;
+}
+
+.no_line {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: inherit;
+  padding: 10px 30px;
+}
+
+#footer {
+    text-align: center;
+  }
