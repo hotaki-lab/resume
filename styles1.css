@@ -7,6 +7,30 @@ body {
   padding-right: 15px;
 }
 
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+        height: 100vh;
+
+        h1 {
+            font-size: 5.5rem;
+        }
+    }
+
+
+
 .bg-primary {
   background-color: #6EB6FF !important;
 }
@@ -15,9 +39,25 @@ body {
   color: #fff !important;
 }
 
-.btn {
-  margin-bottom: 5%;
+.btn.btn-primary {
+  margin-bottom: 5% !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  background-color: #6EB6FF !important;
+  border-color: #fff !important;
 }
+
+.btn.btn-primary:hover {
+  color: #fff !important;
+  background-color: #0b5ed7 !important;
+  border-color: #0a58ca !important;
+}
+
+
+
+
 .hh {
   height: 200px;
   width: 160px;
@@ -47,6 +87,7 @@ h2 {
 
 header {
   background-color: #6EB6FF;
+  background-image: url(C:\Users\Owner\Desktop\Fullstack WebDev Udemy\CSS - My Site\carousel\header.jpg);
 }
 
 section {
@@ -60,6 +101,13 @@ section {
   padding: 10px 30px;
 }
 
+.cards {
+  padding: 5%;
+}
+video {
+  height: 100px;
+  border-radius: 30%;
+}
 #footer {
     text-align: center;
   }
